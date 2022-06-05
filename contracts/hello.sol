@@ -16,7 +16,7 @@ contract Hello {
 		console.log("%s has just waved!", msg.sender);
 	}
 
-	function totalWaves() public view returns (uint256) {
+	function waveCount() public view returns (uint256) {
 		console.log("We have %d total waves", totalWaves);
 		return totalWaves;
 	}
